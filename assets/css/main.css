@@ -2065,8 +2065,8 @@
 		input[type="submit"].special,
 		input[type="reset"].special,
 		.button.special {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #495fab;
+			border-color: #495fab;
 			color: #fff !important;
 		}
 
@@ -2284,6 +2284,10 @@
 			color: #495fab;
 		}
 
+		.blue #header {
+			color: #495fab;
+		}
+
 		#header.alt {
 			-moz-animation: none;
 			-webkit-animation: none;
@@ -2349,7 +2353,7 @@
 			}
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
+				background: #495fab;
 				color: #fff;
 			}
 
