@@ -1,20 +1,59 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
+	<head>
+		<title>Missouri Tile | Springfield Missouri</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="index">
+		<div id="page-wrapper">
 
-  {% include head.html %}
+			<!-- Header -->
+			<header id="header" class="alt">
+			  <h1 id="logo"><img src="images/emblem.png" alt="Missouri Tile Logo" width="50"/> <a href="index.html">Missouri <span>Tile</span></a></h1>
+			  {% include nav.html %}
+			</header>
 
-  <body>
 
-    {% include header.html %}
+			{{ content }}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+			<!-- Footer -->
+			<footer id="footer">
 
-    {% include footer.html %}
+			  <ul class="icons">
+			    <li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+			    <li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
+			    <li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+			    <li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
+			    <li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+			  </ul>
 
-  </body>
+			  <ul class="copyright">
+			    <li>&copy; Missouri Tile</li><li>Design: <a href="http://zachdyerdesign.com">Zach Dyer Design</a></li>
+			  </ul>
 
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
