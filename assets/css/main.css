@@ -2205,6 +2205,12 @@
 				font-weight: 300;
 			}
 
+			#header h1 a {
+				position: relative;
+				top: -14px;
+
+			}
+
 		#header nav {
 			letter-spacing: 0.075em;
 			position: absolute;
@@ -2275,6 +2281,7 @@
 			-webkit-animation: reveal-header 0.5s;
 			-ms-animation: reveal-header 0.5s;
 			animation: reveal-header 0.5s;
+			color: #495fab;
 		}
 
 		#header.alt {
