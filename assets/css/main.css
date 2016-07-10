@@ -2782,7 +2782,7 @@
 
 		/* Header */
 
-			#header {
+			#header #nav{
 				display: none;
 			}
 
