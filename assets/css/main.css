@@ -2300,14 +2300,18 @@
 			position: absolute;
 		}
 
-			#header.alt nav {
-				right: 2.5em;
-				top: 1.75em;
-			}
+		#header.alt nav {
+			right: 2.5em;
+			top: 1.75em;
+		}
 
-			#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
-				border: solid 1px;
-			}
+		#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
+			border: solid 1px;
+		}
+
+		#header .call {
+			display: none;
+		}
 
 /* Dropotron */
 
@@ -2658,6 +2662,10 @@
 				padding-right: 2.5em;
 			}
 
+			#header .call {
+				display: block;
+			}
+
 			footer.major {
 				padding-top: 1.5em;
 			}
@@ -2739,6 +2747,10 @@
 
 				.index #header #logo {
 					display: none;
+				}
+
+				#header .call {
+					display: block;
 				}
 
 		/* Section/Article */
@@ -3063,6 +3075,10 @@
 
 				header p {
 					text-align: center;
+				}
+
+				#header .call {
+					display: block;
 				}
 
 			footer.major {
