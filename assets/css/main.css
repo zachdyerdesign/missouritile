@@ -2305,9 +2305,9 @@
 				top: 1.75em;
 			}
 
-				#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
-					border: solid 1px;
-				}
+			#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
+				border: solid 1px;
+			}
 
 /* Dropotron */
 
@@ -2735,6 +2735,10 @@
 
 				header.special h2 + p {
 					padding-top: 1.25em;
+				}
+
+				.index #header #logo {
+					display: none;
 				}
 
 		/* Section/Article */
