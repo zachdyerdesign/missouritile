@@ -1,6 +1,6 @@
 <div id="slides">
   {% for gallery in site.data.galleries.[include.type] %}
-  <img src="images/galleries/{{ include.type }}/{{ gallery.url }}" alt="{{ gallery.caption}}" title="{{ gallery.caption }}">
+  <img src="/images/galleries/{{ include.type }}/{{ gallery.url }}" alt="{{ gallery.caption}}" title="{{ gallery.caption }}">
   {% endfor %}
   <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-chevron-left"></i></a>
   <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-right"></i></a>
