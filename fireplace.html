@@ -19,13 +19,7 @@ title: Missouri Tile | Fireplace Gallery
 								<div class="content">
 									<section>
 
-									    <div id="slides">
-												{% for fireplace in site.data.galleries.fireplace %}
-												<img src="images/galleries/fireplace/{{ fireplace.url }}" alt="{{ fireplace.caption }}">
-												{% endfor %}
-									      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-chevron-left"></i></a>
-									      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-right"></i></a>
-									    </div>
+									  {% include gallery.html type="fireplace" %}
 
 										<!--<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>-->
 										<!--<header>
