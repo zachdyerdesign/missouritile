@@ -1,8 +1,7 @@
 ---
-layout: gallery
+layout: default
 title: Missouri Tile | Kitchen Gallery
 ---
-
 			<!-- Main -->
 				<article id="main">
 
@@ -20,11 +19,9 @@ title: Missouri Tile | Kitchen Gallery
 									<section>
 
 									    <div id="slides">
-									      <img src="images/galleries/kitchens/1.jpg" alt="">
-												<img src="images/galleries/kitchens/2.jpg" alt="">
-									      <img src="images/galleries/kitchens/3.jpg" alt="">
-									      <img src="images/galleries/kitchens/4.jpg" alt="">
-									      <img src="images/galleries/kitchens/5.jpg" alt="">
+												{% for kitchen in site.data.galleries.kitchens %}
+												<img src="images/galleries/kitchens/{{ kitchen.url }}" alt="{{ kitchen.caption }}">
+												{% endfor %}
 									      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-chevron-left"></i></a>
 									      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-right"></i></a>
 									    </div>

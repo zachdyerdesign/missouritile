@@ -2207,7 +2207,6 @@
 
 			#header h1 a {
 				position: relative;
-				top: -14px;
 
 			}
 
@@ -2298,6 +2297,20 @@
 			color: #fff;
 			padding: 2em 2.5em;
 			position: absolute;
+		}
+		#header.alt #logo {
+			position: relative;
+			top: -14px;
+			background-image: url(../../images/web-logo-alt.png);
+		}
+		#header #logo {
+			background-repeat: no-repeat;
+			height: 52px;
+	    background-size: 185px;
+	    width: 192px;
+			background-image: url(../../images/web-logo.png);
+			display: block;
+			border: none;
 		}
 
 		#header.alt nav {

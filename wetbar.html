@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: default
 title: Missouri Tile | Wetbar Gallery
 ---
 
@@ -20,13 +20,9 @@ title: Missouri Tile | Wetbar Gallery
 									<section>
 
 									    <div id="slides">
-									      <img src="images/galleries/wetbar/1.jpg" alt="">
-												<img src="images/galleries/wetbar/2.jpg" alt="">
-									      <img src="images/galleries/wetbar/3.jpg" alt="">
-									      <img src="images/galleries/wetbar/4.jpg" alt="">
-									      <img src="images/galleries/wetbar/5.jpg" alt="">
-									      <img src="images/galleries/wetbar/6.jpg" alt="">
-									      <img src="images/galleries/wetbar/7.jpg" alt="">
+												{% for wetbar in site.data.galleries.wetbar %}
+												<img src="images/galleries/wetbar/{{ wetbar.url }}" alt="{{ wetbar.caption }}">
+												{% endfor %}
 									      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-chevron-left"></i></a>
 									      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-right"></i></a>
 									    </div>

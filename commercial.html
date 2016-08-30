@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: default
 title: Missouri Tile | Commercial Gallery
 ---
 
@@ -20,13 +20,9 @@ title: Missouri Tile | Commercial Gallery
 									<section>
 
 									    <div id="slides">
-									      <img src="images/galleries/commercial/1.jpg" alt="Commercial tile">
-												<img src="images/galleries/commercial/2.jpg" alt="Commercial tile">
-									      <img src="images/galleries/commercial/3.jpg" alt="Commercial tile">
-									      <img src="images/galleries/commercial/4.jpg" alt="Commercial tile">
-									      <img src="images/galleries/commercial/5.jpg" alt="Commercial tile">
-									      <img src="images/galleries/commercial/6.jpg" alt="Commercial tile">
-									      <img src="images/galleries/commercial/7.jpg" alt="Commercial tile">
+												{% for commerical in site.data.galleries.commercial %}
+												<img src="images/galleries/commercial/{{ commerical.url }}" alt="{{ commerical.caption }}">
+												{% endfor %}
 									      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-chevron-left"></i></a>
 									      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-right"></i></a>
 									    </div>

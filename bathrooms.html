@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: default
 title: Missouri Tile | Bathrooms Gallery
 ---
 
@@ -20,12 +20,9 @@ title: Missouri Tile | Bathrooms Gallery
 									<section>
 
 									    <div id="slides">
-									      <img src="images/galleries/bathrooms/1.jpg" alt="Bathroom tile">
-												<img src="images/galleries/bathrooms/2.jpg" alt="Bathroom tile">
-									      <img src="images/galleries/bathrooms/3.jpg" alt="Bathroom tile">
-									      <img src="images/galleries/bathrooms/4.jpg" alt="Bathroom tile">
-									      <img src="images/galleries/bathrooms/5.jpg" alt="Bathroom tile">
-									      <img src="images/galleries/bathrooms/6.jpg" alt="Bathroom tile">
+												{% for bathroom in site.data.galleries.bathrooms %}
+									      <img src="images/galleries/bathrooms/{{ bathroom.url }}" alt="{{ bathroom.caption}}">
+												{% endfor %}
 									      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-chevron-left"></i></a>
 									      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-right"></i></a>
 									    </div>

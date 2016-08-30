@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: default
 title: Missouri Tile | Outdoors Gallery
 ---
 
@@ -20,14 +20,9 @@ title: Missouri Tile | Outdoors Gallery
 									<section>
 
 									    <div id="slides">
-									      <img src="images/galleries/outdoors/1.jpg" alt="">
-												<img src="images/galleries/outdoors/2.jpg" alt="">
-									      <img src="images/galleries/outdoors/3.jpg" alt="">
-									      <img src="images/galleries/outdoors/4.jpg" alt="">
-									      <img src="images/galleries/outdoors/5.jpg" alt="">
-									      <img src="images/galleries/outdoors/6.jpg" alt="">
-									      <img src="images/galleries/outdoors/7.jpg" alt="">
-									      <img src="images/galleries/outdoors/8.jpg" alt="">
+												{% for outdoor in site.data.galleries.outdoors %}
+									      <img src="images/galleries/outdoors/{{ outdoor.url }}" alt="{{ outdoor.caption}}">
+												{% endfor %}
 									      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="fa fa-chevron-left"></i></a>
 									      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="fa fa-chevron-right"></i></a>
 									    </div>
