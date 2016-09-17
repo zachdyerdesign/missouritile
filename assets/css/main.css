@@ -2306,11 +2306,12 @@
 		#header #logo {
 			background-repeat: no-repeat;
 			height: 52px;
-	    background-size: 185px;
-	    width: 192px;
+			background-size: 185px;
+			width: 220px;
 			background-image: url(../../images/web-logo.png);
 			display: block;
 			border: none;
+			background-position: 37px 0px;
 		}
 
 		#header.alt nav {
@@ -2324,6 +2325,13 @@
 
 		#header .call {
 			display: none;
+			font-size: 24px;
+			line-height: 50px;
+			max-width: 55px;
+    	min-width: 50px;
+			position: absolute;
+			right: 10px;
+			top: 10px;
 		}
 
 /* Dropotron */
@@ -3092,6 +3100,7 @@
 
 				#header .call {
 					display: block;
+
 				}
 
 			footer.major {
