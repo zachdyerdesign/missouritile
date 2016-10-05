@@ -8,12 +8,36 @@
 	<head>
 		{% include head.html %}
 	</head>
-	<body class="{% if page.url == "/" %}index{% endif %}">
+	<body class="">
 		<div id="page-wrapper">
 
 			{% include header.html %}
 
-			{{ content }}
+      <!-- Main -->
+    	<article id="main">
+
+    		<header class="special container">
+    			<span class="icon fa-video-camera"></span>
+
+          <h2>{{ page.title }}</h2>
+
+        </header>
+
+    		<!-- One -->
+    			<section class="wrapper style4 container">
+
+    				<!-- Content -->
+    					<div class="content">
+
+    						<iframe width="100%" height="700" src="https://www.youtube.com/embed/{{ page.youtube-id }}" frameborder="0" allowfullscreen></iframe>
+
+                {{ content }}
+                
+    					</div>
+
+    			</section>
+
+    	</article>
 
 			<!-- Footer -->
 			{% include footer.html %}

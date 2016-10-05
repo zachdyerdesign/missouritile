@@ -1,28 +1,38 @@
 ---
-layout: page
+layout: default
 title: Missouri Tile | Video
 ---
-			<!-- Main -->
-				<article id="main">
+<!-- Main -->
+	<article id="main">
 
-					<header class="special container">
-						<span class="icon fa-envelope"></span>
-						<h2>Video</h2>
-						<p>Watch our instructional tile installation videos.</p>
-					</header>
+		<header class="special container">
+			<span class="icon fa-video-camera"></span>
+			<h2>Video</h2>
+			<p>Watch our instructional tile installation videos.</p>
+		</header>
 
-					<!-- One -->
-						<section class="wrapper style4 container">
+		<!-- One -->
+			<section class="wrapper style4 container">
 
-							<!-- Content -->
-								<div class="content">
+				<!-- Content -->
+					<div class="content">
 
-									<iframe width="100%" height="700" src="https://www.youtube.com/embed/mGEP0qlMfqc?list=PL52CD42jWvvSJzK5dOjUuP5DtwWTekZRZ&showinfo=1" frameborder="0" allowfullscreen></iframe>
+						<div class="row">
+							{% for video in site.videos %}
+							<div class="6u 12u(narrower)">
+								<section>
+									<a href="{{ video.url }}" class="image featured"><img src="http://img.youtube.com/vi/{{ video.youtube-id }}/0.jpg" alt="{{ video.title }}" /></a>
+									<header>
+										<h3><a href="{{ video.url }}">{{ video.title }}</a></h3>
+									</header>
+									<p>{{ video.excerpt }}</p>
+								</section>
+							</div>
+							{% endfor %}
+						</div>
 
-								</div>
+					</div>
 
+			</section>
 
-
-						</section>
-
-				</article>
+	</article>
