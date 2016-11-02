@@ -1,0 +1,4 @@
+---
+title: Thinsets
+layout: page
+---
