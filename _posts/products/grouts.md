@@ -1,4 +1,0 @@
----
-title: Grouts
-layout: page
----
