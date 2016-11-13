@@ -13,6 +13,7 @@ title: Missouri Tile | Contact Us
 							</header>
 
 							{% for product in site.products %}
+							{% if product.subcategory %}{% else %}
 							{% cycle '<div class="row">', '' %}
 								<div class="6u 12u(narrower)">
 									<section>
@@ -24,6 +25,7 @@ title: Missouri Tile | Contact Us
 									</section>
 								</div>
 							{% cycle '', '</div>' %}
+							{% endif %}
 							{% endfor %}
 
 						</section>
