@@ -1,6 +1,6 @@
 ---
 title: Thinsets
-layout: product
+layout: brands
 products:
   - product: TEC
     url: /products/thinsets/thinsets-tec.html

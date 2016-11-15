@@ -24,7 +24,7 @@ products:
     img: laticrete/255 multimax.png
 
   - product: 4-XLT
-    url: https://laticrete.com/en/our-products/tile-and-stone-installation-and-maintenance/adhesives-and-mortars/large-and-heavy-tile-mortar/4-xlt
+    url: https://laticrete.com/our-products/tile-and-stone-installation-and-maintenance/adhesives-and-mortars/large-and-heavy-tile-mortar/4-xlt-rapid
     brand: Laticrete
     img: laticrete/4-xlt.png
 
