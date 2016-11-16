@@ -15,7 +15,7 @@ products:
 
 - brand: Laticrete
   product: PermaColor Select Grout
-  url: https://laticrete.com/our-products/tile-and-stone-installation-and-maintenance/grouts/cementitious-grouts/permacolor-select
+  url: https://laticrete.com/our-products/tile-and-stone-installation-and-maintenance/grouts/cementitious-grouts/permacolor-select-ns-grout-base
   img: laticrete/permacolor select grout.png
 
 - brand: Laticrete
