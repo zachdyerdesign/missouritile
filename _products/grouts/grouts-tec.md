@@ -14,11 +14,6 @@ products:
   img: tec/TEC+AccuColor+Unsanded+Grout.jpg
 
 - brand: TEC
-  product: AccuColor Silconized Acrylic Unsanded Caulk
-  url: http://www.tecspecialty.com/products/caulks/siliconized-caulk/AccuColor-Siliconized-Unsanded-Acrylic-Caulk.html#.V8iR8KMm6po
-  img: tec/TEC+Accucolor+unsanded+caulk.jpg
-
-- brand: TEC
   product: Power Grout
   url: http://www.tecspecialty.com/products/grouts/advance-performance-grout/Power-Grout-Ultimate-Performance-Grout.html#.V8iPiaMm6po
   img: tec/PowerGrout.jpg
@@ -32,6 +27,11 @@ products:
   product: AccuColor Silconized Acrylic Sanded Caulk
   url: http://www.tecspecialty.com/products/caulks/siliconized-caulk/AccuColor-Siliconized-Sanded-Acrylic-Caulk.html#.V8iRnKMm6po
   img: tec/TEC-accucolor-sanded-grout.jpg
+
+- brand: TEC
+  product: AccuColor Silconized Acrylic Unsanded Caulk
+  url: http://www.tecspecialty.com/products/caulks/siliconized-caulk/AccuColor-Siliconized-Unsanded-Acrylic-Caulk.html#.V8iR8KMm6po
+  img: tec/TEC+Accucolor+unsanded+caulk.jpg
 
 - brand: TEC
   product: AccuColor 100 100% Silicone Sealant
