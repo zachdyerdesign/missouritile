@@ -10,12 +10,12 @@ products:
 
 - brand: Laticrete
   product: PermaColor Select Non Sanded Grout
-  url: https://laticrete.com/en/our-products/tile-and-stone-installation-and-maintenance/grouts/cementitious-grouts/1600-unsanded-grout
+  url: https://laticrete.com/our-products/tile-and-stone-installation-and-maintenance/grouts/cementitious-grouts/permacolor-select-ns-grout-base
   img: laticrete/permacolor select nonsanded grout.png
 
 - brand: Laticrete
   product: PermaColor Select Grout
-  url: https://laticrete.com/our-products/tile-and-stone-installation-and-maintenance/grouts/cementitious-grouts/permacolor-select-ns-grout-base
+  url:   https://laticrete.com/our-products/tile-and-stone-installation-and-maintenance/grouts/cementitious-grouts/permacolor-select
   img: laticrete/permacolor select grout.png
 
 - brand: Laticrete
