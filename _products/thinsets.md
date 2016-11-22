@@ -15,4 +15,4 @@ img: thinsetsandgrout.jpg
 category: products
 ---
 
-Thanks to modern materials, tile is now a durable and long-lasting option for exterior concrete patios–even in cold climates.
+The mortar that holds it all together.  From entry level to the most advanced, we have thinsets and mortars to ensure the proper adhesion between tile and substrate.
