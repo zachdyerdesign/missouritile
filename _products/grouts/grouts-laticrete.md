@@ -40,4 +40,4 @@ products:
 img: thinsetsandgrout.jpg
 ---
 
-Thanks to modern materials, tile is now a durable and long-lasting option for exterior concrete patios–even in cold climates.
+Grout is a necessary component to tile installations. From traditional grouts to the newest pre-sealed grout options, we have got you covered.
