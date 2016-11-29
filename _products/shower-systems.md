@@ -11,12 +11,12 @@ products:
 - brand: Wedi
   product: EcoBath Pan
   url: http://us.wedi.de/_shared/_pdf/us/wedi_Ecobath_OneStep_Fundo_TDS.pdf
-  img: wedi/ ecobath pan.png
+  img: wedi/ecobath pan.png
 
 - brand: Wedi
   product: Ligno Pan
   url: http://us.wedi.de/dcadmin/dc_media/downloads/us/wedi_Fundo_Ligno_TDS.pdf
-  image: wedi/ligno.png
+  img: wedi/ligno.png
 
 - brand: Wedi
   product: Riolito Pan
@@ -26,7 +26,7 @@ products:
 - brand: Wedi
   product: Riolito Neo Modular Pan
   url: http://us.wedi.de/dcadmin/dc_media/downloads/us/wedi_Riolito_neo_Modular_TDS.pdf
-  img: wedi/riolito beo modular pan.png
+  img: wedi/riolito neo modular pan.png
 
 - brand: Wedi
   product: Riofino Pan
@@ -36,7 +36,7 @@ products:
 - brand: Durock
   product: Durock Shower System
   url: https://www.usg.com/content/usgcom/en/products-solutions/products/tile-and-flooring-installation/shower-system/usg-durock-shower-system.html
-  img: wedi/durock shower system.png
+  img: durock/durock shower system.png
 
 - brand: Laticrete
   product: Hydro Ban Shower
