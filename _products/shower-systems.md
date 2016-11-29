@@ -2,7 +2,46 @@
 title: Shower Systems
 layout: product
 img: showersystem.jpg
-category: products
+products:
+- brand: Wedi
+  product: Fundo Pan
+  url: http://us.wedi.de/_shared/_pdf/us/wedi_TDS_Fundo_Primo.pdf
+  img: wedi/fundo pan.png
+
+- brand: Wedi
+  product: EcoBath Pan
+  url: http://us.wedi.de/_shared/_pdf/us/wedi_Ecobath_OneStep_Fundo_TDS.pdf
+  img: wedi/ ecobath pan.png
+
+- brand: Wedi
+  product: Ligno Pan
+  url: http://us.wedi.de/dcadmin/dc_media/downloads/us/wedi_Fundo_Ligno_TDS.pdf
+  image: wedi/ligno.png
+
+- brand: Wedi
+  product: Riolito Pan
+  url: http://us.wedi.de/_shared/_pdf/us/wedi_Fundo_Riolito_and_Riofino_TDS.pdf
+  img: wedi/riolito pan.png
+
+- brand: Wedi
+  product: Riolito Neo Modular Pan
+  url: http://us.wedi.de/dcadmin/dc_media/downloads/us/wedi_Riolito_neo_Modular_TDS.pdf
+  img: wedi/riolito beo modular pan.png
+
+- brand: Wedi
+  product: Riofino Pan
+  url: http://us.wedi.de/_shared/_pdf/us/wedi_Fundo_Riolito_and_Riofino_TDS.pdf
+  img: wedi/riofino pan.png
+
+- brand: Durock
+  product: Durock Shower System
+  url: https://www.usg.com/content/usgcom/en/products-solutions/products/tile-and-flooring-installation/shower-system/usg-durock-shower-system.html
+  img: wedi/durock shower system.png
+
+- brand: Laticrete
+  product: Hydro Ban Shower
+  url: https://laticrete.com/~/media/datasheets/lds0310.ashx
+  img: laticrete/hydro ban shower.png
 ---
 
 Our Shower System is a fully bonded waterproofing system for tiled shower installations, designed to control moisture independently of the tile covering, while creating a long-lasting shower.

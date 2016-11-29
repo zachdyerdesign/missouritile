@@ -24,4 +24,4 @@ img: strata-mat.jpg
 category: products
 ---
 
-If you install carpeting without a pad, it will not be as comfortable to walk on and it will wear out faster. If you install tile on a cracked concrete subfloor it will enventually crack the tile and grout. If you install a wood, cork, or bamboo floating floor on an unlevel subfloor, the edges will not fit well together. Consequently you will stub your toes and eventually destroy that part of the floor.
+A good foundation is essential for any successful tile installation.  We offer several underlayment options to choose from.
