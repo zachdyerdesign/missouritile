@@ -28,11 +28,6 @@ products:
   url: http://us.wedi.de/dcadmin/dc_media/downloads/us/wedi_Riolito_neo_Modular_TDS.pdf
   img: wedi/riolito neo modular pan.png
 
-- brand: Wedi
-  product: Riofino Pan
-  url: http://us.wedi.de/_shared/_pdf/us/wedi_Fundo_Riolito_and_Riofino_TDS.pdf
-  img: wedi/riofino pan.png
-
 - brand: Durock
   product: Durock Shower System
   url: https://www.usg.com/content/usgcom/en/products-solutions/products/tile-and-flooring-installation/shower-system/usg-durock-shower-system.html
