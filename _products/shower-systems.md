@@ -44,4 +44,4 @@ products:
   img: laticrete/hydro ban shower.png
 ---
 
-Our Shower System is a fully bonded waterproofing system for tiled shower installations, designed to control moisture independently of the tile covering, while creating a long-lasting shower.
+Your luxury tiled shower is within reach.  By choosing the right shower system you will insure that your tiled shower stands the test of time.
