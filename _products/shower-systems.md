@@ -37,6 +37,11 @@ products:
   product: Hydro Ban Shower
   url: https://laticrete.com/~/media/datasheets/lds0310.ashx
   img: laticrete/hydro ban shower.png
+
+- brand: TileWare
+  product: Shower Hardware Accessories
+  url: https://tilewareproducts.com
+  img: tileware.JPG
 ---
 
 Your luxury tiled shower is within reach.  By choosing the right shower system you will insure that your tiled shower stands the test of time.
