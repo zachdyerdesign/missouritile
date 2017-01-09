@@ -40,7 +40,7 @@ products:
 
 - brand: TileWare
   product: Shower Hardware Accessories
-  url: https://tilewareproducts.com
+  url: http://tilewareproducts.com
   img: tileware.JPG
 ---
 
