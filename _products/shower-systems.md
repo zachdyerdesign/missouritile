@@ -40,8 +40,9 @@ products:
 
 - brand: TileWare
   product: Shower Hardware Accessories
-  url: http://tilewareproducts.com
+  url: http://tilewareproducts.com
   img: tileware.JPG
+
 ---
 
-Your luxury tiled shower is within reach.  By choosing the right shower system you will insure that your tiled shower stands the test of time.
+Your luxury tiled shower is within reach.  By choosing the right shower system you will insure that your tiled shower stands the test of time.ss
