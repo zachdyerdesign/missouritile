@@ -5,27 +5,27 @@ img: showersystem.jpg
 products:
 - brand: Wedi
   product: Fundo Pan
-  url: http://us.wedi.de/_shared/_pdf/us/wedi_TDS_Fundo_Primo.pdf
+  url: /pdf/Fundo.pdf
   img: wedi/fundo pan.png
 
 - brand: Wedi
   product: EcoBath Pan
-  url: http://us.wedi.de/_shared/_pdf/us/wedi_Ecobath_OneStep_Fundo_TDS.pdf
+  url: /pdf/eco bath.pdf
   img: wedi/ecobath pan.png
 
 - brand: Wedi
   product: Ligno Pan
-  url: http://us.wedi.de/dcadmin/dc_media/downloads/us/wedi_Fundo_Ligno_TDS.pdf
+  url: /pdf/ligno.pdf
   img: wedi/ligno.png
 
 - brand: Wedi
   product: Riolito Pan
-  url: http://us.wedi.de/_shared/_pdf/us/wedi_Fundo_Riolito_and_Riofino_TDS.pdf
+  url: /pdf/Riolito.pdf
   img: wedi/riolito pan.png
 
 - brand: Wedi
   product: Riolito Neo Modular Pan
-  url: http://us.wedi.de/dcadmin/dc_media/downloads/us/wedi_Riolito_neo_Modular_TDS.pdf
+  url: /pdf/riolito neo modular.pdf
   img: wedi/riolito neo modular pan.png
 
 - brand: Durock
