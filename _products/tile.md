@@ -1,5 +1,5 @@
 ---
-title: Tile
+title: Tile Product Manufacturer
 layout: product
 img: kitchens.jpg
 category: products
