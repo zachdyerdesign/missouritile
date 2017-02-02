@@ -19,11 +19,6 @@ products:
   img: laticrete/permacolor select grout.png
 
 - brand: Laticrete
-  product: Plasma Grout
-  url: https://laticrete.com/en/our-products/tile-and-stone-installation-and-maintenance/grouts/hybrid-grouts/plasma
-  img: laticrete/plasma.png
-
-- brand: Laticrete
   product: Spectralock Pro Premium Grout
   url: https://laticrete.com/en/our-products/tile-and-stone-installation-and-maintenance/grouts/epoxy-grouts/spectralock-pro-premium-grout
   img: laticrete/spectralock pro prem grout.png
@@ -54,11 +49,6 @@ products:
   img: tec/PowerGrout.jpg
 
 - brand: TEC
-  product: InColor Grout
-  url: http://www.tecspecialty.com/products/grouts/advance-performance-grout/incolor.html#.V8iPyaMm6po
-  img: tec/TEC+Incolor+Advance+Performance+Grout.jpg
-
-- brand: TEC
   product: AccuColor Silconized Acrylic Sanded Caulk
   url: http://www.tecspecialty.com/products/caulks/siliconized-caulk/AccuColor-Siliconized-Sanded-Acrylic-Caulk.html#.V8iRnKMm6po
   img: tec/TEC-accucolor-sanded-grout.jpg
@@ -72,6 +62,16 @@ products:
   product: AccuColor 100 100% Silicone Sealant
   url: http://www.tecspecialty.com/products/caulks/silicone-sealant/AccuColor-100-100-Silicone-Sealant.html#.V8iSEaMm6po
   img: tec/tecs-TA150_AccuColor-1001.jpg
+
+- brand: Bostik
+  product: Quartzlock2 Rapidcure Urethane Grout
+  url: https://surfaceartinc.com/product-brochures/55-quartzlock2-specs/file.html
+  img: Dimension Rapdicure Glass Filled Urethane Grout.jpg
+
+- brand: Bostik
+  product: Dimension Rapdicure Glass Filled Urethane Grout
+  url: http://www.buildsite.com/pdf/bostik/Dimension-RapidCure-Product-Data-1428059.pdf
+  img: Quartzlock2 Rapidcure Urethane Grout.jpg
 img: thinsetsandgrout.jpg
 
 ---
