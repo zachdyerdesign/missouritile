@@ -19,7 +19,8 @@
 								<p>{{ content }}</p>
 							</header>
 
-							{% for product in page.products %}
+							{% for product in site.data.products %}
+							{% if page.type == product.type %}
 							{% cycle '<div class="row">', '', '', '' %}
 								<div class="3u 12u(narrower)">
 									<section>
@@ -31,6 +32,7 @@
 									</section>
 								</div>
 							{% cycle '', '', '', '</div>' %}
+							{% endif %}
 							{% endfor %}
 
 						</section>
