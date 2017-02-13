@@ -19,16 +19,21 @@
 								<p>{{ content }}</p>
 							</header>
 
-							{% for product in site.data.products %}
-							{% if page.type == product.type %}
+							{% for product in site.data.productsjs.feed.entry %}
+							{% assign brand = product['gsx$brand']['$t'] %}
+							{% assign url = product['gsx$url']['$t'] %}
+							{% assign img = product['gsx$img']['$t'] %}
+							{% assign title = product['gsx$title']['$t'] %}
+							{% assign type = product['gsx$type']['$t'] %}
+							{% if page.type == type %}
 							{% cycle '<div class="row">', '', '', '' %}
 								<div class="3u 12u(narrower)">
 									<section>
-										<a href="{{ product.url }}" class="image featured" target="_blank"><img src="{{ site.github.url }}/images/products/{{ product.img }}" alt="{{ product.title }}" class="img-thumbnail"/></a>
+										<a href="{{ url }}" class="image featured" target="_blank"><img src="{{ site.github.url }}/images/products/{{ img }}" alt="{{ title }}" class="img-thumbnail"/></a>
 										<header>
-											<h3>{{ product.brand }}</h3>
+											<h3>{{ brand }}</h3>
 										</header>
-										<p><a href="{{ product.url }}" target="_blank">{{ product.product }}</a></p>
+										<p><a href="{{ url }}" target="_blank">{{ title }}</a></p>
 									</section>
 								</div>
 							{% cycle '', '', '', '</div>' %}
