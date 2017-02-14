@@ -1,6 +1,6 @@
 ---
-layout: video
 title: Hydro Ban Barrier Free Shower - Linear Drain
+layout: video
 youtube-id: LqLyL6IZe_U
 collection: videos
 ---

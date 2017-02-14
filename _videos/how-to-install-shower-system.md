@@ -1,6 +1,6 @@
 ---
-layout: video
 title: How to install a wedi Fundo Ligno Floor Level Curbless Shower System
+layout: video
 youtube-id: mGEP0qlMfqc
 collection: videos
 ---

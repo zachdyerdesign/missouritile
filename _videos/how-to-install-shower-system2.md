@@ -1,6 +1,6 @@
 ---
-layout: video
 title: How to build a wedi Fundo Primo custom shower
+layout: video
 youtube-id: X1GLQDPIA-E
 collection: videos
 ---

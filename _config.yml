@@ -1,25 +1,24 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+---
 title: Missouri Tile
-email: sales@missouritile.biz
-description: Missouri Tile is a family owned and operated tile store and showroom with a large selection of tiles that will accommodate any budget.
-url: "http://missouritile.biz"
-banner: millstone b.png
-
+timezone: UTC
 collections:
-  videos:
+  posts:
+    title: Posts
     output: true
   products:
+    title: Products
     output: true
-
-# Build settings
+  uploads:
+    title: Uploads
+    output: true
+  videos:
+    title: Videos
+    output: true
+email: sales@missouritile.biz
+description: Missouri Tile is a family owned and operated tile store and showroom
+  with a large selection of tiles that will accommodate any budget.
+url: http://missouritile.biz
+banner: millstone b.png
 markdown: kramdown
-
 gems:
-  - jekyll-sitemap
+- jekyll-sitemap
