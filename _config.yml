@@ -24,33 +24,33 @@ gems:
 - jekyll-sitemap
 menu:
   main:
-    - title: Welcome
-      permalink: /
-    - title: Showroom
-      permalink: /showroom
-    - title: Video
-      permalink: /video
-    - title: Products
-      permalink: /products
-    - title: Galleries
-      permalink: /galleries
-      submenu:
-        - title: Kitchens
-          permalink: /galleries/kitchens
-        - title: Bathrooms
-          permalink: /galleries/bathrooms
-        - title: Outdoors
-          permalink: /galleries/outdoors
-        - title: Commercial
-          permalink: /galleries/commercial
-        - title: Backsplash
-          permalink: /galleries/backsplash
-        - title: Wetbar
-          permalink: /galleries/wetbar
-        - title: Fireplace
-          permalink: /galleries/fireplace
-    - title: Contact
-      permalink: /contact
+  - title: Welcome
+    permalink: "/"
+  - title: Showroom
+    permalink: "/showroom"
+  - title: Video
+    permalink: "/video"
+  - title: Products
+    permalink: "/products"
+  - title: Galleries
+    permalink: "/galleries"
+    submenu:
+    - title: Kitchens
+      permalink: "/galleries/kitchens"
+    - title: Bathrooms
+      permalink: "/galleries/bathrooms"
+    - title: Outdoors
+      permalink: "/galleries/outdoors"
+    - title: Commercial
+      permalink: "/galleries/commercial"
+    - title: Backsplash
+      permalink: "/galleries/backsplash"
+    - title: Wetbar
+      permalink: "/galleries/wetbar"
+    - title: Fireplace
+      permalink: "/galleries/fireplace"
+  - title: Contact
+    permalink: "/contact"
   galleries:
   - title: Kitchens
     permalink: "/galleries/kitchens"
