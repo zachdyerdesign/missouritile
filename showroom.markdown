@@ -3,8 +3,7 @@ title: Missouri Tile | Showroom Floor
 layout: default
 ---
 
-			<!-- Main -->
-				<article id="main">
+
 
 					<header class="special container">
 						<span class="icon fa-map-marker"></span>
@@ -26,4 +25,4 @@ layout: default
 
 						</section>
 
-				</article>
+
