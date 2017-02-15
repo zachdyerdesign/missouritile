@@ -33,5 +33,7 @@ nav:
     permalink: /products
   - title: Galleries
     permalink: /galleries
+    - title: Test
+      permalink: /test
   - title: Contact
     permalink: /contact
