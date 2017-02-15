@@ -1,5 +1,5 @@
 ---
-title: Contact Us
+title: Products
 icon: phone
 desc: We have all your tile needs from tools to any material for tile projects
 layout: page
