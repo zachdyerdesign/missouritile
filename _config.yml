@@ -2,16 +2,16 @@
 title: Missouri Tile
 timezone: UTC
 collections:
-  - posts:
+  posts:
     title: Posts
     output: true
-  - products:
+  products:
     title: Products
     output: true
-  - uploads:
+  uploads:
     title: Uploads
     output: true
-  - videos:
+  videos:
     title: Videos
     output: true
 email: sales@missouritile.biz
