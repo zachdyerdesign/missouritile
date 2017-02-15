@@ -1,13 +1,10 @@
 ---
-title: Missouri Tile | Showroom Floor
-layout: default
+title: Showroom
+desc: Take a virtual tour of our 5000 square foot showroom floor with our large selection of tile.
+layout: page
 ---
 
-					<header class="special container">
-						<span class="icon fa-map-marker"></span>
-						<h2>Showroom</h2>
-						<p>Take a virtual tour of our 5000 square foot showroom floor with our large selection of tile.</p>
-					</header>
+			
 
 					<!-- One -->
 						<section class="wrapper style4 container">
