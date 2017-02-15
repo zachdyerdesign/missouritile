@@ -33,5 +33,6 @@ nav:
   permalink: "/products"
 - title: Galleries
   permalink: "/galleries"
+  submenu: gallery-menu
 - title: Contact
   permalink: "/contact"
