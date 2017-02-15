@@ -24,8 +24,14 @@ gems:
   - jekyll-sitemap
 nav:
   - title: Welcome
+    permalink: /
   - title: Showroom
+    permalink: /showroom
   - title: Video
+    permalink: /video
   - title: Products
+    permalink: /products
   - title: Galleries
+    permalink: /galleries
   - title: Contact
+    permalink: /contact
