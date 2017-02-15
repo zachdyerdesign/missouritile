@@ -1,5 +1,6 @@
 ---
 title: Showroom
+permalink: showroom
 desc: Take a virtual tour of our 5000 square foot showroom floor with our large selection
   of tile.
 icon: map-marker
