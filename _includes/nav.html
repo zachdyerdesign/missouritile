@@ -4,32 +4,17 @@
 
 <nav id="nav">
   <ul>
-    <li {% if page.url == '/' %}class='current'{% endif %}><a href="/">Welcome</a></li>
-    <li {% if page.url == '/showroom.html' %}class='current'{% endif %}><a href="/showroom">Showroom</a></li>
-    <li {% if page.url == '/video.html' %}class='current'{% endif %}><a href="/video">Video</a></li>
-    <li {% if page.url == '/products.html' %}class='current'{% endif %}><a href="/products">Products</a></li>
-    <li class="submenu">
-      <a href="/galleries">Galleries</a>
+    {% for menu in site.menu.main %}
+    <li class='{% if page.url == menu.permalink %}current{% endif %}{% if menu.submenu %} submenu{% endif %}{% if menu.class %} {{ menu.class }}{% endif %}'>
+      <a href="{{ menu.permalink }}">{{ menu.title }}</a>
+    {% if menu.submenu %}
       <ul>
-        <li><a href="/galleries/kitchens.html">Kitchens</a></li>
-        <li><a href="/galleries/bathrooms.html">Bathrooms</a></li>
-        <li><a href="/galleries/outdoors.html">Outdoors</a></li>
-        <li><a href="/galleries/commercial.html">Commercial</a></li>
-        <li><a href="/galleries/backsplash.html">Backsplash</a></li>
-        <li><a href="/galleries/wetbar.html">Wetbar</a></li>
-        <li><a href="/galleries/fireplace.html">Fireplace</a></li>
-        <!--<li class="submenu">
-          <a href="#">Submenu</a>
-          <ul>
-            <li><a href="#">Dolore Sed</a></li>
-            <li><a href="#">Consequat</a></li>
-            <li><a href="#">Lorem Magna</a></li>
-            <li><a href="#">Sed Magna</a></li>
-            <li><a href="#">Ipsum Nisl</a></li>
-          </ul>
-        </li>-->
+      {% for submenu in menu.submenu %}
+        <li><a href="{{ submenu.permalink }}">{{ submenu.title }}</a></li>
+      {% endfor %}
       </ul>
+    {% endif %}
     </li>
-    <li><a href="/contact" class="button special">Contact</a></li>
+    {% endfor %}
   </ul>
 </nav>

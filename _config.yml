@@ -51,18 +51,4 @@ menu:
           permalink: /galleries/fireplace
     - title: Contact
       permalink: /contact
-  galleries:
-  - title: Kitchens
-    permalink: "/galleries/kitchens"
-  - title: Bathrooms
-    permalink: "/galleries/bathrooms"
-  - title: Outdoors
-    permalink: "/galleries/outdoors"
-  - title: Commercial
-    permalink: "/galleries/commercial"
-  - title: Backsplash
-    permalink: "/galleries/backsplash"
-  - title: Wetbar
-    permalink: "/galleries/wetbar"
-  - title: Fireplace
-    permalink: "/galleries/fireplace"
+      class: button special
