@@ -21,7 +21,7 @@ url: http://missouritile.biz
 banner: millstone b.png
 markdown: kramdown
 gems:
-  - jekyll-sitemap
+- jekyll-sitemap
 nav:
   - title: Welcome
     permalink: /
