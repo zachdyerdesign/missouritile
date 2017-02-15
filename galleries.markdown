@@ -1,7 +1,7 @@
 ---
 title: Galleries
 icon: image
-desc: Check out our large selection of *beautiful tile*
+desc: Check out our large selection of <strong>beautiful tile</strong>
 layout: page
 ---
 
