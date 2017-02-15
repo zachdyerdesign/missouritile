@@ -1,6 +1,6 @@
 ---
 title: Products
-icon: phone
+icon: dropbox
 desc: We have all your tile needs from tools to any material for tile projects
 layout: page
 ---
