@@ -21,11 +21,11 @@ url: http://missouritile.biz
 banner: millstone b.png
 markdown: kramdown
 gems:
-  - jekyll-sitemap
+- jekyll-sitemap
 nav:
-  - title: Welcome
-  - title: Showroom
-  - title: Video
-  - title: Products
-  - title: Galleries
-  - title: Contact
+- title: Welcome
+- title: Showroom
+- title: Video
+- title: Products
+- title: Galleries
+- title: Contact
