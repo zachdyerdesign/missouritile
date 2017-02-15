@@ -5,7 +5,6 @@ desc: Check out our large selection of *beautiful tile*
 layout: page
 ---
 
-
 <div class="row">
   <div class="6u 12u(narrower)">
 
