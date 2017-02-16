@@ -1,6 +1,5 @@
 ---
 title: Missouri Tile
-business: Missouri Tile
 timezone: UTC
 collections:
   posts:
@@ -15,6 +14,7 @@ collections:
   videos:
     title: Videos
     output: true
+business: Missouri Tile
 email: sales@missouritile.biz
 description: Missouri Tile is a family owned and operated tile store and showroom
   with a large selection of tiles that will accommodate any budget.
