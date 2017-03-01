@@ -18,12 +18,12 @@
 								<h2>{{ page.title }}</h2>
 								<p>{{ content }}</p>
 							</header>
-
+		
 							{% for product in site.data.productsjs.feed.entry %}
 							{% assign brand = product['gsx$brand']['$t'] %}
 							{% assign url = product['gsx$url']['$t'] %}
 							{% assign img = product['gsx$img']['$t'] %}
-							{% assign title = product['gsx$title']['$t'] %}
+							{% assign title = product['gsx$product']['$t'] %}
 							{% assign type = product['gsx$type']['$t'] %}
 							{% if page.type == type %}
 							{% cycle '<div class="row">', '', '', '' %}
