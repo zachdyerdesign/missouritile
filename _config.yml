@@ -1,25 +1,55 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
+---
 title: Missouri Tile
-email: sales@missouritile.biz
-description: Missouri Tile is a family owned and operated tile store and showroom with a large selection of tiles that will accommodate any budget.
-url: "http://missouritile.biz"
-banner: millstone b.png
-
+timezone: UTC
 collections:
-  videos:
+  posts:
+    title: Posts
     output: true
   products:
+    title: Products
     output: true
-
-# Build settings
+  uploads:
+    title: Uploads
+    output: true
+  videos:
+    title: Videos
+    output: true
+business: Missouri Tile
+email: sales@missouritile.biz
+description: Missouri Tile is a family owned and operated tile store and showroom
+  with a large selection of tiles that will accommodate any budget.
+url: http://missouritile.biz
+banner: millstone b.png
 markdown: kramdown
-
 gems:
-  - jekyll-sitemap
+- jekyll-sitemap
+menu:
+  main:
+  - title: Welcome
+    permalink: "/"
+  - title: Showroom
+    permalink: "/showroom"
+  - title: Video
+    permalink: "/video"
+  - title: Products
+    permalink: "/products"
+  - title: Galleries
+    permalink: "/galleries"
+    submenu:
+    - title: Kitchens
+      permalink: "/galleries/kitchens"
+    - title: Bathrooms
+      permalink: "/galleries/bathrooms"
+    - title: Outdoors
+      permalink: "/galleries/outdoors"
+    - title: Commercial
+      permalink: "/galleries/commercial"
+    - title: Backsplash
+      permalink: "/galleries/backsplash"
+    - title: Wetbar
+      permalink: "/galleries/wetbar"
+    - title: Fireplace
+      permalink: "/galleries/fireplace"
+  - title: Contact
+    permalink: "/contact"
+    class: button special

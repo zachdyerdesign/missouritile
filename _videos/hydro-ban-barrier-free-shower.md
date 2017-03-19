@@ -1,6 +1,6 @@
 ---
-layout: video
 title: Hydro Ban Barrier Free Shower - Center Drain
+layout: video
 youtube-id: fEWcdL1bII8
 collection: videos
 ---

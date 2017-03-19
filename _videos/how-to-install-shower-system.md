@@ -1,11 +1,12 @@
 ---
-layout: video
 title: How to install a wedi Fundo Ligno Floor Level Curbless Shower System
 youtube-id: mGEP0qlMfqc
 collection: videos
+layout: video
 ---
 
 In this step by step installation video, we are showing you how to build a wedi Fundo Ligno curb less and floor level shower and get it ready for tile the same day.
+
 Ligno, a precise, prefabricated solution for curb less, flush floor shower base installations without cutting into floor joists or recessing too deep into floors.
 
 Ligno features a presloped base design only ¾” thick at the perimeter

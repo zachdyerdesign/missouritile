@@ -1,6 +1,6 @@
 ---
-layout: video
 title: How to install the wedi Fundo Riolito Shower
+layout: video
 youtube-id: t99p4myrVsY
 collection: videos
 ---
