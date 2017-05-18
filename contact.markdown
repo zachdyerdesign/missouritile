@@ -13,8 +13,8 @@ layout: page
     <div class="6u 12u(mobile)">
       <h3><span class="icon fa-map-marker"></span> Address</h3>
       <p><strong>Missouri Tile</strong><br>
-      3045 S. Scenic Ave.<br>
-      Springfield, MO 65807<br></p>
+      2418 W Battlefield Rd <br>
+      Springfield, MO 65807</p>
 
       <h3><span class="icon fa-phone"></span> Telephone</h3>
       <p> +1 417 889 8453</p>
