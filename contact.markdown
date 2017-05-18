@@ -5,7 +5,7 @@ desc: Contact us by phone, email, or this convieniant form.
 layout: page
 ---
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.7265438301324!2d-93.33556868445142!3d37.15920125510786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf6404048acc25%3A0x310506b22882d090!2sMissouri+Tile!5e0!3m2!1sen!2sus!4v1468178915121" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.7341686192194!2d-93.32924268432967!3d37.15901997987625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf640f3a829c1f%3A0x80fc2e52afe4986e!2s2418+W+Battlefield+Rd%2C+Springfield%2C+MO+65807!5e0!3m2!1sen!2sus!4v1495146019064" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 <!-- Content -->
 <div class="content">
@@ -21,7 +21,6 @@ layout: page
 
       <h3><span class="icon fa-fax"></span> Fax</h3>
       <p>+1 417 889 2448</p>
-
 
     </div>
 
